@@ -5,6 +5,10 @@ body {
 	background-color: #02b3e4;
 }
 
+a {
+	padding: 24px;
+}
+
 .border {
 	border-style: solid;
     border-width: 1px;
@@ -57,7 +61,7 @@ body {
     img {
     	width: 100%;
     }
-	
+
 	.font-big {
 		margin: 5px;
 	}
