@@ -1,8 +1,19 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: "zocial", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	color: #2d3c49;
 	font-weight: 600;
-	background-color: #02b3e4;
+	background: #02b3e4;
 }
 
 a {
@@ -11,6 +22,10 @@ a {
 
 .border {
 	border: 1px solid #7d97ad;
+}
+
+.margin-md {
+	margin: 24px;
 }
 
 .container {
@@ -33,13 +48,14 @@ a {
 	width: 100%;
 	height: 4px;
 	margin-bottom: 30px;
-	background-color: #7d97ad;
+	background: #7d97ad;
 }
 
 .work-title {
 	font-size: 30px;
     margin: 40px 15px 5px 5px;
 	color: #7d97ad;
+	font-weight: 600;
 }
 
 .text-center {
